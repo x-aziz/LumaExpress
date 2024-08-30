@@ -1,0 +1,42 @@
+/* Navbar.css */
+.navbar {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-logo img {
+  height: 40px;
+  border-radius: 8px;
+}
+
+.navbar-toggle-icon::before {
+  top: -8px;
+}
+
+.navbar-toggle-icon::after {
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+}

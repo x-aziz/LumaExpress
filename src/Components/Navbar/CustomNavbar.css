@@ -1,0 +1,57 @@
+.icons_part img {
+  width: 13%;
+  cursor: pointer;
+  position: relative;
+}
+.icons_part {
+  display: flex;
+  gap: 15px;
+}
+.search input {
+  width: 80%;
+}
+.search img {
+  width: 40%;
+}
+.search {
+  position: absolute;
+  display: flex;
+  top: 4rem;
+  left: 30rem;
+  align-items: center;
+  width: 500px;
+  background-color: white;
+  /* padding: 0px 10px 0px 0px; */
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.search input,
+input:focus {
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.search select {
+  height: 40px;
+  padding: 10px;
+}
+.dropdown-sun {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  gap: 10px;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+}
+.sun-container img {
+  width: 70%;
+}
+.sun-container {
+  position: relative;
+}
